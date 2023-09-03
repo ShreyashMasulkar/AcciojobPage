@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Inter&display=swap');
+
+
+.navbar{
+    position: fixed;
+}
+#Login{
+    padding-right: 35%;
+}
+.listgap{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+  #bluebar{
+    background-color:#2F80ED;
+    color: white ;
+    font-family: 'ABeeZee', sans-serif;
+    text-align: center;
+    height: 37px;
+  }
+  .nextbatch{
+    padding: 8px;
+  }
+  .heading1{
+    font-family: ABeeZee;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  #fullstack{
+    font-family: ABeeZee;
+    color: #2F80ED;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+  .heading2{
+    width: 492px;
+    height: 46px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(82, 82, 82, 1);
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .madewith {
+    position: absolute;
+    width: 261px;
+    height: 41px;
+    padding: 10px 20px;
+    border-radius: 23px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(82, 82, 82);
+    gap: 10px;
+    top: 400px !important;
+    left: 15px!important;
+}
+
+  #linkstudent{
+    color:inherit;
+
+  }
+  #launch{
+    width: 711px;
+    height: 308px;
+    top: 226px;
+    left: 110px;
+    gap: 35px;
+
+  }
+  .featuresimg {
+    position: absolute;
+    z-index: 2;
+    top: 170px;
+    left: -26px;
+}
+.arrowimg {
+    position: absolute;
+    z-index: 1;
+    width: 129px;
+    height: 101px;
+    top: 104px;
+    left: 756px;
+    border: 3px;
+}
+
+.startattending{
+    font-family: ABeeZee;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    width: 291px;
+    height: 96px;
+}
+
+.loginform{
+    width: 415px;
+    height: 496px;
+    top: 223px;
+    left: 291px;
+}
+
+#livelectures{
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+
+#button {
+    color: #eee;
+    font-style: italic;
+    height: 44px;
+    width: 94%;
+    padding: 10px;
+}
+
+       
+.btn-grad {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  #byclicking{
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(129, 141, 157, 1);
+
+  }
+  #placementreport{
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width:276px;
+    height:55px;
+    top: 670px;
+    left: 582px;
+    padding: 14px 6px 14px 16px;
+    border-radius: 8px;
+    gap: 2px;
+    background: rgba(47, 128, 237, 1);
+
+
+
+  }
+
+  #companylogos {
+    display: flex;
+    top: 323px;
+    left: 108px;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+  .companies {
+    position: absolute;
+    text-align: center;
+    top: 1570px;
+    width: 100%;
+    height: 794px;
+    background-color: rgba(255, 255, 255, 1);
+}
+#overcomp{
+    color: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.08em;
+    text-align: center;
+   
+}
+
+#fromaccio{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(129, 141, 157, 1);
+
+}
+.SE{
+    color:rgba(47, 128, 237, 1)
+}
+#topstartups{
+    width: 100%;
+    height: 126px;
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+
+}
+ 
+  .courses{
+    background: #ECF8FF;
+    width: 100%;
+    position: absolute;
+    top: 870px;
+  }
+  #learn{
+    padding-top: 50px;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+  }
+  #ourcourses{
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #2F80ED;
+  
+  }
+  .boxes{
+    display: flex;
+  
+  }
+
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.courses{
+    background: #ECF8FF;
+    width: 100%;
+    position: absolute;
+    top: 870px;
+  }
+  
+  #learn{
+    padding-top: 50px;
+    font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+  }
+  
+  #ourcourses{
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    color: #2F80ED;
+  
+  }
+  
+  .boxes{
+    display: flex;
+  }
+  
+  .boxes > beginner {
+    order: 1;
+    width: 498px;
+    height: 463px;
+    background: white;
+    left: 100px;
+    padding: 10px;
+  }
+  
+  .boxes > intermediate {
+    order: 2;
+    width: auto;
+    height: auto;
+    background: white;
+    left: 100px;
+    padding: 10px;
+  }
+  
+  .img1{
+    height: 20px;
+    width: 50px;
+    align-items: center;
+  }
+  
+  .value{
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  
+  }
+  .key{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  
+  }
+  
+  .brochure{
+    width: 200px;
+    padding: 10px;
+  }
+  
+  .cardimg{
+    height: 101px;
+    padding-left: 82px;
+    padding-right: 100px;
+  }
+  
+  .cardcourses {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1.25rem;
+  }
+  
+  .cardcourses1 {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid #2F80ED;
+    border: radius 1.25rem;;
+  }
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    top: 2350px;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+
+    max-width: 300px;
+    overflow: hidden;
+}
+#ouralumini{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    width: 181px;
+    height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.lastsection {
+    position: absolute;
+    top: 2191px;
+    left: 565px;
+}
+
+#acciowall{
+    font-family: ABeeZee;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    width: 420px;
+    height: 63px;
+
+}
+.testimonial-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.testimonial-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-header a img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.testimonial-header a img:hover {
+    opacity: 1;
+}
+
+.testimonial-content {
+    padding: 12px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.testimonial-background {
+    color: #888;
+    font-style: italic;
+    margin-top: 6px;
+}
+
+.testimonial-text {
+    margin-top: 12px;
+}
