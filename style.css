@@ -3,6 +3,11 @@
 
 
 .navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 100%;
     position: fixed;
 }
 #Login{
@@ -496,6 +501,17 @@ body {
     width: 420px;
     height: 63px;
 
+}
+.abcd {
+    height: 20px;
+    width: 186px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    left: 135px;
+    bottom: 462px;
+    border-radius: 1.25rem;
+    background: #2F80ED;
 }
 .testimonial-header {
     display: flex;
